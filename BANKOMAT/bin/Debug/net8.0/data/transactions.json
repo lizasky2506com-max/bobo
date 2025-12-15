@@ -1,0 +1,24 @@
+[
+  {
+    "CardNumber": "1111222233334444",
+    "Pin": "1234",
+    "Balance": 1000.0,
+    "Owner": "Liza",
+    "IsBlocked": false
+  },
+  {
+    "CardNumber": "5555666677778888",
+    "Pin": "5678",
+    "Balance": 500.0,
+    "Owner": "Anna",
+    "IsBlocked": false
+  },
+  {
+    "CardNumber": "9999000011112222",
+    "Pin": "2468",
+    "Balance": 2000.0,
+    "Owner": "Marek",
+    "IsBlocked": false
+  }
+]
+ 

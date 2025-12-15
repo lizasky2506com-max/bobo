@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "BANKOMAT/1.0.0": {
+        "runtime": {
+          "BANKOMAT.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BANKOMAT/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
