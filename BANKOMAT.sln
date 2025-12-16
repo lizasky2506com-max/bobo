@@ -5,21 +5,34 @@ VisualStudioVersion = 17.14.36623.8 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BANKOMAT", "BANKOMAT\BANKOMAT.csproj", "{D109B71B-E51A-4942-BC93-AC5A02C0126A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bankomat.Core", "Bankomat.Core\Bankomat.Core.csproj", "{0BC6A42F-9BA1-4E3F-8052-BD19AC6AD165}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BANKOMAT.Wpf", "BANKOMAT.Wpf\BANKOMAT.Wpf.csproj", "{629E2288-6432-4B10-87E7-105DBDC159E8}"
+EndProject
 Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D109B71B-E51A-4942-BC93-AC5A02C0126A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D109B71B-E51A-4942-BC93-AC5A02C0126A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D109B71B-E51A-4942-BC93-AC5A02C0126A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D109B71B-E51A-4942-BC93-AC5A02C0126A}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {D495FA2F-CE58-42A8-8FBB-572D53AEDED4}
-	EndGlobalSection
+        GlobalSection(SolutionConfigurationPlatforms) = preSolution
+                Debug|Any CPU = Debug|Any CPU
+                Release|Any CPU = Release|Any CPU
+        EndGlobalSection
+        GlobalSection(ProjectConfigurationPlatforms) = postSolution
+                {D109B71B-E51A-4942-BC93-AC5A02C0126A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+                {D109B71B-E51A-4942-BC93-AC5A02C0126A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+                {D109B71B-E51A-4942-BC93-AC5A02C0126A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+                {D109B71B-E51A-4942-BC93-AC5A02C0126A}.Release|Any CPU.Build.0 = Release|Any CPU
+                {0BC6A42F-9BA1-4E3F-8052-BD19AC6AD165}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+                {0BC6A42F-9BA1-4E3F-8052-BD19AC6AD165}.Debug|Any CPU.Build.0 = Debug|Any CPU
+                {0BC6A42F-9BA1-4E3F-8052-BD19AC6AD165}.Release|Any CPU.ActiveCfg = Release|Any CPU
+                {0BC6A42F-9BA1-4E3F-8052-BD19AC6AD165}.Release|Any CPU.Build.0 = Release|Any CPU
+                {629E2288-6432-4B10-87E7-105DBDC159E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+                {629E2288-6432-4B10-87E7-105DBDC159E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+                {629E2288-6432-4B10-87E7-105DBDC159E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+                {629E2288-6432-4B10-87E7-105DBDC159E8}.Release|Any CPU.Build.0 = Release|Any CPU
+        EndGlobalSection
+        GlobalSection(SolutionProperties) = preSolution
+                HideSolutionNode = FALSE
+        EndGlobalSection
+        GlobalSection(ExtensibilityGlobals) = postSolution
+                SolutionGuid = {D495FA2F-CE58-42A8-8FBB-572D53AEDED4}
+                StartupProject = BANKOMAT.Wpf
+        EndGlobalSection
 EndGlobal
